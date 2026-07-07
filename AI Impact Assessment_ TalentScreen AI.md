@@ -1,6 +1,6 @@
 ## Section 1: System Description and Classification
 
-\#\# System Description
+## System Description
 
 \*\*System Name:\*\* TalentScreen AI
 
