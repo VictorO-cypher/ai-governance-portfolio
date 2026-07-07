@@ -64,7 +64,7 @@ Although TalentScreen AI offers significant operational benefits, its deployment
 
 ## Section 3: Risk Measurement and Evaluation (NIST AI RMF MEASURE)
 
-## ## Identified Risks by Trustworthiness Characteristic
+## Identified Risks by Trustworthiness Characteristic
 
 ### Fairness and Bias (MEASURE 2.11)  
 The system may discriminate against candidates from underrepresented groups because the training data reflects historical hiring decisions that contain bias.
