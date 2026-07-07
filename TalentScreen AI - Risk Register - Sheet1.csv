@@ -1,0 +1,23 @@
+Risk ID,Risk Category,Risk Description,Affected Stakeholders,Likelihood (1-5),Severity (1-5),Risk Score,NIST RMF Subcategory,Mitigation Control,Control Owner,Status
+RISK-001,Bias,"Training data encodes historical hiring 
+discrimination against women in technical roles",Job applicants (women),4,5,"20 
+(Likelihood x Severity = 4 x 5)",MEASURE 2.11,"Conduct regular bias audits using disaggregated metrics 
+across protected characteristics;
+ retrain the model on balanced datasets 
+perform disparate impact testing before deployment.",AI Development Team,Proposed
+RISK-002,Transparency,"Candidates cannot understand why they were rejected;
+ the scoring algorithm is not explainable",Job applicants,5,4,20,MEASURE 2.8,"Provide candidates with meaningful explanations of how their
+ applications were assessed; publish a summary of the system's 
+decision logic; maintain human oversight for hiring decisions.",HR Compliance,Proposed
+RISK-003,Privacy,"Processes sensitive personal data
+ without adequate data minimization",Job applicants,3,4,12,MEASURE 2.10,"Apply data minimization principles; collect only job-relevant information;
+ conduct a GDPR Data Protection Impact Assessment (DPIA);
+ enforce secure data retention and deletion policies.",Data Protection Officer,Proposed
+RISK-004,Validity,"System may not generalize across job types or
+ candidate populations",Job applicants,3,4,12,MEASURE 2.5,"Evaluate model performance across different job 
+categories and demographic groups;
+establish minimum accuracy and fairness thresholds before deployment.",AI Development Team,Proposed
+RISK-005,Safety,"Incorrect rejections at scale systematically
+ exclude qualified candidates",Job applicants broadly,4,4,16,Job applicants broadly,"Require human review for high-impact or borderline decisions;
+ establish a formal candidate appeals process;
+ continuously monitor rejection trends.",AI Governance Committee,Proposed
